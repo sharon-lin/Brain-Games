@@ -1,16 +1,9 @@
 # Brain-Games
 
-To Do
-
--Configure OpenVibe
--3D print headset
--Write words using EEG
--Transfer words to text 
--SMS/Social media
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
+| To Do  | Progress  | Notes |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-
+| Configure OpenVibe      | In Progress | None |
+| 3D print headset      | Not Started       |   None |
+| Write words using EEG | Not Started        |   None |
+| Transfer words to text | Not Started | None |
+| SMS/Social media | Not Started | None |
