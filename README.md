@@ -9,6 +9,7 @@ Custom EEG-to-text
 Neuro motor disease, literacy education
 
 Using: OpenBCI, OpenViBE, Arduino Leonardo, Temboo API
+
 Platforms: Web (Azure), Mobile (Android, iOS)
 
 | To Do  | Progress  | Notes |
