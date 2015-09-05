@@ -1,0 +1,118 @@
+html {
+    background:#505D6E url(../images/body4.jpg) no-repeat center center fixed;
+    min-height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    background:transparent;
+    min-height:100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    line-height: 1.5em;
+    font-size:14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color:#fff;
+    color:rgba(255,255,255,.8);
+    font-weight: normal;
+}
+.section {
+    z-index: 1;
+    min-height:420px;
+    width: 100%;
+    overflow:auto;
+    height:100%;
+    padding-top:100px;
+    padding-bottom:50px;
+    display:none;
+    top:0;
+}
+@media {
+    (min-width: {
+        768px) {
+            .section;
+        }
+    }
+}
+#head {
+    display: block;
+}
+.list-social {
+    .btn {
+        font-size:1.3em;
+    }
+}
+.list-social .btn:hover, .list-social .btn:active, .list-social .btn:focus {
+    text-decoration: none;
+}
+#social {
+    margin-top:50px;
+    margin-bottom:50px;
+    .wrapper {
+        width:340px;
+        margin:0 auto;
+    }
+}
+.theme-invert {
+    color:#222;
+    color:rgba(0,0,0,.8);
+    a {
+        color:#000;
+    }
+    .btn {
+        color:rgba(255,255,255,.8);
+    }
+    .btn:hover {
+        color:#fff;
+    }
+    .btn-link {
+        color:rgba(0,0,0,.8);
+    }
+    .navbar-toggle {
+        background: rgba(0, 0, 0, 0.12);
+        .icon-bar {
+            background: #333;
+        }
+    }
+    .mainmenu {
+        .dropdown-menu {
+            a {
+                color:#000;
+            }
+            a:hover {
+                background:rgba(0,0,0,.1);
+                color:#000;
+            }
+        }
+    }
+    .btn-default {
+        background: rgba(0,0,0,.4);
+    }
+    .btn-primary {
+        background: rgba(0,0,0,.2);
+    }
+    .thumbnail {
+        background-color: rgba(255,255,255,.8);
+    }
+}
+.theme-invert .btn-link:hover, .theme-invert .btn-link:focus, .theme-invert .btn-link:active {
+    color:#000;
+}
+.theme-invert .title,.theme-invert .subtitle,.theme-invert .tagline {
+    color:#222222;
+}
+.theme-invert .btn-default:hover,.theme-invert .btn-default:focus,.theme-invert .btn-default:active,.theme-invert .btn-default.active {
+    background: rgba(0,0,0,.6);
+    color:#fff;
+}
+.theme-invert .btn-primary:hover,.theme-invert .btn-primary:focus,.theme-invert .btn-primary:active,.theme-invert .btn-primary.active {
+    background: rgba(0,0,0,.3);
+    color:#fff;
+}
+.thumbnail {
+    .caption {
+        color: inherit;
+    }
+}
